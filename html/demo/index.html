@@ -4,58 +4,88 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CV</title>
-  <link rel="stylesheet" type="text/css" title="indexstylsheet" href="indexstylesheet.css">
+  <link rel="stylesheet" type="text/css" title="indexstylsheet" href="./styles/indexstylesheet.css">
 </head>
 <body>
   <!--<script src="main.js" type="text/javascript"></script>-->
    <header>
     <h1>CV de Biramane Shahin </h1>
    </header>
-   <section>
-     <a href="https://tekken.fandom.com/fr/wiki/Shaheen"><img src="./ressources/images/tekkenphoto.jpg" alt="photo de Shahin" width="240px" height="180px"></a>
+   <section class="formation">
+     <div class = "photo">
+     <a href="https://tekken.fandom.com/fr/wiki/Shaheen"><img src="./ressources/images/tekkenphoto.jpg" alt="photo de Shahin"></a>
+     </div>
      <h2>Formations</h2>
-     <p>Licence pilote privé</p>
      <p>Informatique de gestion</p>
+     <p><a href="https://fr.wikipedia.org/wiki/Attentats_du_11_septembre_2001">Licence pilote privé</a></p>
    </section>
-   <section>
+   <section class="competences">
      <h2>Compétences</h2>
-     <p>Java</p>
-     <p>C++</p>
-     <p>Angular</p>
-     <p>Spring</p>
-     <p>HTML</p>
-     <p>CSS</p>
-     <p>Javascript</p>
+     <div class="comp">
+       <p>Java</p>
+       <div class="conteneur-barre"><span class="barre c80"></span></div>
+     </div>
+     <div class="comp">
+       <p>Spring</p>
+       <div class="conteneur-barre"><span class="barre c80"></span></div>
+     </div>
+     <div class="comp">
+       <p>Angular</p>
+       <div class="conteneur-barre"><span class="barre c70"></span></div>
+     </div>
+     <div class="comp">
+       <p>C++</p>
+       <div class="conteneur-barre"><span class="barre c70"></span></div>
+     </div>
+     <div class="comp">
+       <p>HTML</p>
+       <div class="conteneur-barre"><span class="barre c60"></span></div>
+     </div>
+
+     <div class="comp">
+       <p>CSS</p>
+       <div class="conteneur-barre"><span class="barre c60"></span></div>
+     </div>
+     <div class="comp">
+       <p>Javascript</p>
+       <div class="conteneur-barre"><span class="barre c50"></span></div>
+     </div>
    </section>
-   <section>
+   <section class="langue">
      <h2>Langues</h2>
-     <p>Français : Langue maternelle</p>
-     <p>Anglais : bon niveau</p>
-     <p>Néerlandais: niveau scolaire, mais pas "bon" scolaire</p>
+     <ul>
+       <li>Français : Langue maternelle</li>
+       <li>Anglais : bon niveau</li>
+       <li>Néerlandais: niveau scolaire, mais pas "bon" scolaire</li>
+     </ul>
    </section>
-   <section>
+   <section class="interet">
      <h2>Centres d'intérêt</h2>
-     <p>
-       <a href="./pages/hobby/musique.html">Musique: piano & saxo <img src="./ressources/images/musique.jfif" alt=""></a></p>
-     <p>
-       <a href="./pages/hobby/badminton.html"> Sport: badminton<img src="./ressources/images/badminton.jfif" alt="image de badminton"></a>
-     </p>
-     <p>Netflix & chill</p>
+     <div class="divinteret">
+       <a href="./pages/hobby/musique.html"><p>Musique: piano & saxo </p><img src="./ressources/images/musique.jfif" alt=""></a></div>
+      <div class="divinteret">
+       <a href="./pages/hobby/badminton.html"><p>Sport: badminton</p><img src="./ressources/images/badminton.jfif" alt="image de badminton"></a></div>
    </section>
-   <section>
+   <section class="info">
      <h2>Informations supplémentaires</h2>
+     <div>
      <p>Permis de conduire des voitures (B) mais aussi des petits avions de plaisance</p>
      <p>Je suis très mauvais cuisinier mais je fais un bon couscous</p>
-     <img <source src="./ressources/images/couscous.jfif" alt="image d'un couscous">
+     </div>
+     <img source src="./ressources/images/couscous.jfif" alt="image d'un couscous">
    </section>
-   <section>
+   <section class="contact">
      <h2>Contact</h2>
-     <p>
+     <div>
        <a href="mailto:shahin.biramane@gmail.com?subject=feedback">Email me</a>
-       <a href="https://www.facebook.com/shahin.biramane/">Facebook</a>
-       <a href="https://www.linkedin.com/in/shahin-biramane-a6343a212/">Linkedin</a>
-       <a href="tel:06123456789">06123456789</a>
-     </p>
+       <a href="tel:06123456789">Call me</a>
+       <div class="social">
+                <a href="https://www.facebook.com/shahin.biramane"><img src="./ressources/images/facebook.png" alt="Logo facebook"></a>
+                <a href="https://twitter.com/shahin.biramane"><img src="./ressources/images/twitter.png" alt="Logo twitter"></a>
+                <a href="https://www.linkedin.com/in/shahin-biramane-a6343a212/"><img src="./ressources/images/linkedin.png" alt="Logo linkedin"></a>
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="./ressources/images/youtube.png" alt="Logo youtube"></a>
+       </div>
+     </divenire>
    </section>
 </body>
 </html>
